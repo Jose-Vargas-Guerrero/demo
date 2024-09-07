@@ -1,0 +1,479 @@
+---
+import Layout from "../../layouts/Layout.astro"
+---
+
+
+<Layout title="Schuh">
+    <div class="projectContainer">
+        <div class="projectBody">
+            <div class="projectMain">
+                <h1>A new online look for one of the biggest footwear retailers </h1>
+                <p>Schuh</p>
+            </div>
+            <div class="image1Container">
+                <img src="https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=2048" alt="Aire"/>
+            </div>
+            <div class="tags">
+                <div class="tagBody">
+                    <p class="tagTitle">Client</p>
+                    <p class="tagText">Schuh</p>
+                </div>
+                <div class="tagBody">
+                    <p class="tagTitle">Studio</p>
+                    <p class="tagText">A_TK</p>
+                </div>
+                <div class="tagBody">
+                    <p class="tagTitle">Role</p>
+                    <p class="tagText">Senior Designer</p>
+                </div>
+                <div class="tagBody">
+                    <p class="tagTitle">focus</p>
+                    <p class="tagText">Digital</p>
+                </div>
+            </div>
+            <div class="image1Container">
+                <img src="https://framerusercontent.com/images/LYuNHQQJWuklwuKyEt1L3v0Ccrc.jpg?scale-down-to=2048" alt="Aire"/>
+            </div>
+            <div class="overview">
+                <p class="text1">Overview</p>
+                <p class="text2">Working alongside Schuh’s internal design team and A_TK, I was responsible for designing the entire look and feel of their new website. From wireframes through to engineer-ready designs.</p>
+            </div>
+            <div class="sectionImage2">
+                <div class="folder1">
+                    <img class="image2" src="https://framerusercontent.com/images/QTZk4xwfSZT4WiXMWAj61AHR4I.jpg"/>
+                    <img class="image3" src="https://framerusercontent.com/images/8lcYipjIjJORBSy2P0Fjku1Q.jpg"/>
+                </div>
+                <img class="image4" src="https://framerusercontent.com/images/Fwb2wsEbCVc7nEPyOtqvj3Jc4M.jpg?scale-down-to=2048"/>
+                <img class="image5" src="https://framerusercontent.com/images/j1LdMsvcus85mNIzaBjFFera2NA.jpg?scale-down-to=2048"/>
+                <img class="image6" src="https://framerusercontent.com/images/w4HldUtWjEt0UaHg6LkEMG7d4vU.jpg?scale-down-to=2048"/>
+                <div class="folder2">
+                    <img class="image8" src="https://framerusercontent.com/images/wGIPn1ByeeNoowG7mXcHIgy1WM.jpg"/>
+                    <img class="image9" src="https://framerusercontent.com/images/HOY3V9bbz66F2l2rKjjfGhlmZNY.jpg"/>
+                </div>
+                <img class="image6" src="https://framerusercontent.com/images/2HMfveC7lOPIxhoolxBuekGbcPg.jpg?scale-down-to=2048"/>
+            </div>
+            <div class="contact">
+                <h2>Let's work together.</h2>
+                <a href="https://new-portfolio-eight-rust.vercel.app/">Get in touch</a>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+
+
+<style>
+    .projectContainer{
+        max-width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .projectBody{
+        max-width: 85%;
+        height: auto;
+    }
+
+    .projectMain{
+        margin-top: 100px;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectMain > h1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 82px;
+        font-weight: normal;
+    }
+
+    .projectMain > p {
+        margin-top: 30px;
+        background-color: #e8e5e480;
+        padding: 7px 12px;
+        border-radius: 30px;
+    }
+
+    .image1Container{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image1Container > img {
+        width: 100%;
+    }
+
+    .tags{
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tagTitle{
+        font-size: 1rem;
+        color: #7f7f7f;
+    }
+
+    .tagText{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .sectionImage1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionImage1 > img {
+        width: 49%;
+        border-radius: 12px;
+    }
+
+    .overview{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text1{
+        color: #7f7f7f;
+        margin: 10px 0;
+    }
+
+    .text2{
+        width: 40%;
+        text-align:justify;
+    }
+
+    .sectionImage2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .image1{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image2{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image3{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image4{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image5{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image6{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image7{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image8{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image9{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .contact{
+		height: 250px;
+		max-width: 100vw;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact > h2{
+		font-size: 2.3rem;
+		font-weight: bolder;
+	}
+
+	.contact > a{
+		color: #7f7f7f;
+		opacity: 0.9;
+		font-size: 2.2rem;
+		text-decoration: none;
+		font-weight: bolder;
+		margin-top: 10px;
+		transition: opacity 0.3s ease-out;
+	}
+
+	.contact > a:hover {
+		opacity: 0.5;
+	}
+
+    @media only screen and (max-width: 480px) {
+        .projectBody {
+      max-width: 100%;
+      height: auto;
+      padding: 0 1rem;
+    }
+
+    .projectMain > h1 {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-size: 2.7rem;
+      font-weight: normal;
+    }
+
+    .projectMain > p {
+      margin-top: 30px;
+      background-color: #e8e5e480;
+      padding: 7px 12px;
+      border-radius: 30px;
+    }
+
+    .tags > {
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .tagTitle {
+      font-size: 0.8rem;
+      color: #7f7f7f;
+    }
+
+    .tagText {
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
+
+    .image1Container{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image1Container > img {
+        width: 100%;
+    }
+
+    .overview {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1rem;
+      line-height: 1.3;
+      margin: 12px 0;
+    }
+
+    .text1 {
+      color: #7f7f7f;
+      margin: 20px 0;
+    }
+
+    .text2 {
+      width: 100%;
+      text-align: justify;
+    }
+
+    .contact {
+      height: auto;
+      max-width: auto;
+      margin-top: 23px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact > h2 {
+      text-align: center;
+    }
+
+
+
+    .sectionImage1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionImage1 > img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .sectionImage2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .image1{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image2{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image3{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image4{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image5{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image6{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image7{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image8{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image9{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .contact{
+		height: 250px;
+		max-width: 100vw;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact > h2{
+		font-size: 2.3rem;
+		font-weight: bolder;
+	}
+
+	.contact > a{
+		color: #7f7f7f;
+		opacity: 0.9;
+		font-size: 2.2rem;
+		text-decoration: none;
+		font-weight: bolder;
+		margin-top: 10px;
+		transition: opacity 0.3s ease-out;
+	}
+
+	.contact > a:hover {
+		opacity: 0.5;
+	}   
+    }
+
+
+    
+
+</style>

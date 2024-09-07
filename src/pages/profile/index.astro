@@ -1,0 +1,161 @@
+---
+import Layout from "../../layouts/Layout.astro"
+---
+
+<Layout title="profile">
+    <div class="profileContainer">
+        <main class="profile">
+            <h2>Hey 👋🏼 I'm Oli </h2>
+        </main>
+        <div class="folder2">
+            <img class="image8" src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"/>
+            <img class="image9" src="https://framerusercontent.com/images/O3Foxt0XkzTsjGc74Ap0Hrxtz4c.jpg?scale-down-to=1024"/>
+        </div>
+        <div class="about">
+            <p class="tag">About</p>
+            <p class="description">
+                A freelance designer based in the UK. I combine my experience in product and brand to solve problems, tell stories, and create compelling experiences.
+            </p>
+        </div>
+    </div>
+</Layout>
+
+
+
+<style>
+
+    .profileContainer{
+		height: auto;
+		max-width: 100vw;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+    .profile{
+        height: 90vh;
+        max-width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile > h2{
+        font-size: 4.5rem;
+    }
+
+    .folder2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image8{
+        width: 40%;
+        border-radius: 12px;
+        margin: 10px 10px;
+    }
+
+    .image9{
+        width: 40%;
+        border-radius: 12px;
+        margin: 10px 10px;
+    }
+
+    .about{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tag{
+        background-color: #e8e5e480;
+        padding: 7px 12px;
+        border-radius: 20px;
+        margin: 30px 0
+    }
+
+    .description{
+        text-align: center;
+        width: 50%;
+        font-size: 2.3rem;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .profileContainer{
+		height: auto;
+		max-width: 100vw;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+    .profile{
+        height: 80vh;
+        max-width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile > h2{
+        font-size: 3rem;
+    }
+
+    .folder2{
+        width: 100%;
+        padding: 0 1rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image8{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 10px;
+    }
+
+    .image9{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 10px;
+    }
+
+    .about{
+        height: auto;
+        margin: 2rem 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tag{
+        background-color: #e8e5e480;
+        padding: 7px 12px;
+        border-radius: 20px;
+        margin: 30px 0
+    }
+
+    .description{
+        text-align: center;
+        padding: 0 1rem;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    }
+
+</style>

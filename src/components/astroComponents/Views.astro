@@ -1,0 +1,51 @@
+---
+import View from "./View.astro"
+import ViewVideo from "./ViewVideo.astro"
+import ViewClose from "./ViewClose.astro"
+---
+
+<div class="viewContainer">
+    <View title="Aire" imageURL="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024"/>
+    <View title="Correlated" imageURL="https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024"/>
+    <View title="Channel5" imageURL="https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024"/>
+    <View title="RonaldAbram" imageURL="https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024"/>
+    <ViewVideo title="Propeller" videoURL="https://framerusercontent.com/assets/XuzMZ3Z1QQHKltPqRjzGnsWs27M.mp4"/>
+    <View title="Schuh" imageURL="https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024"/>
+    <View title="Paperstreet" imageURL="https://framerusercontent.com/images/e3moUZXfgtjYQY4ILakIMaz4n7s.jpg"/>
+    <ViewVideo title="OH.SUPPLY" videoURL="https://framerusercontent.com/assets/SGjFvgcbK7s4yKh0xwuNjriMNII.mp4"/>
+    <View title="Monokel Eyewear" imageURL="https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024"/>
+    <ViewClose title="LawTrades" imageURL="https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024"/>
+    <ViewClose title="BaselWorld" imageURL="https://framerusercontent.com/images/hQVBeiDNGU2TfeDJALuhawlcto.jpg?scale-down-to=1024"/>
+    <ViewVideo title="NYCB" videoURL="https://framerusercontent.com/assets/NieGBlxBdgpz9QCHV5Aj89rWjVg.mp4"/>
+</div>
+
+
+
+<style>
+    .viewContainer{
+        max-width: 100vw;
+        height: auto;
+        padding: 1rem 6.4rem;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        justify-items: center;
+        gap: 30px;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .viewContainer{
+        max-width: 100vw;
+        height: auto;
+        padding: 1rem 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto;
+        justify-items: center;
+        gap: 30px;
+    }
+    }
+
+</style>

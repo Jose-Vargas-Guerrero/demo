@@ -1,0 +1,470 @@
+---
+import Layout from "../../layouts/Layout.astro"
+---
+
+
+<Layout title="Aire">
+    <div class="projectContainer">
+        <div class="projectBody">
+            <div class="projectMain">
+                <h1>A minimal interface for a Swedish sunglasses brand</h1>
+                <p>Monokel Eyewear</p>
+            </div>
+            <div class="image1Container">
+                <img src="https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=2048" alt="Aire"/>
+            </div>
+            <div class="tags">
+                <div class="tagBody">
+                    <p class="tagTitle">Client</p>
+                    <p class="tagText">Monokel Eyewear</p>
+                </div>
+                <div class="tagBody">
+                    <p class="tagTitle">Studio</p>
+                    <p class="tagText">OH&CO</p>
+                </div>
+                <div class="tagBody">
+                    <p class="tagTitle">Role</p>
+                    <p class="tagText">Lead Designer</p>
+                </div>
+                <div class="tagBody">
+                    <p class="tagTitle">focus</p>
+                    <p class="tagText">Digital</p>
+                </div>
+            </div>
+            <img class="image1" src="https://framerusercontent.com/images/TxKrK21mJtgOYL8zbysQXPWLqc.jpg?scale-down-to=2048"/>
+            <div class="overview">
+                <p class="text1">Overview</p>
+                <p class="text2">I crafted a series of user interfaces for Monokel's ecommerce platform. I also art directed a range of imagery inspired by Monokel's Scandinavian heritage</p>
+            </div>
+            <div class="sectionImage2">
+                <div class="folder1">
+                    <img class="image2" src="https://framerusercontent.com/images/9QRcTogtZd0FXKNdBIFl9IAfDs.jpg"/>
+                    <img class="image3" src="https://framerusercontent.com/images/RFODYWm5226fC8ZNXb4auvusir4.jpg"/>
+                </div>
+                <img class="image4" src="https://framerusercontent.com/images/wpFjnbh75lMPEpTEuBjH0IIYY.jpg?scale-down-to=2048"/>
+                <img class="image5" src="https://framerusercontent.com/images/iYAdh4K24R1cuxmN1OUGNdY9Dg.jpg?scale-down-to=2048"/>
+                <img class="image6" src="https://framerusercontent.com/images/xf5jiXkalYDkLRrjswd8K6AmOP4.jpg?scale-down-to=2048"/>
+            </div>
+            <div class="contact">
+                <h2>Let's work together.</h2>
+                <a href="https://new-portfolio-eight-rust.vercel.app/">Get in touch</a>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+
+
+<style>
+    .projectContainer{
+        max-width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .projectBody{
+        max-width: 85%;
+        height: auto;
+    }
+
+    .projectMain{
+        margin-top: 100px;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectMain > h1 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        font-size: 82px;
+        font-weight: normal;
+    }
+
+    .projectMain > p {
+        margin-top: 30px;
+        background-color: #e8e5e480;
+        padding: 7px 12px;
+        border-radius: 30px;
+    }
+
+    .image1Container{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image1Container > img {
+        width: 100%;
+    }
+
+    .tags{
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tagTitle{
+        font-size: 1rem;
+        color: #7f7f7f;
+    }
+
+    .tagText{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .sectionImage1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionImage1 > img {
+        width: 49%;
+        border-radius: 12px;
+    }
+
+    .overview{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text1{
+        color: #7f7f7f;
+        margin: 10px 0;
+    }
+
+    .text2{
+        width: 40%;
+        text-align:justify;
+    }
+
+    .sectionImage2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .image1{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image2{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image3{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image4{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image5{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image6{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image7{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image8{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image9{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .contact{
+		height: 250px;
+		max-width: 100vw;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact > h2{
+		font-size: 2.3rem;
+		font-weight: bolder;
+	}
+
+	.contact > a{
+		color: #7f7f7f;
+		opacity: 0.9;
+		font-size: 2.2rem;
+		text-decoration: none;
+		font-weight: bolder;
+		margin-top: 10px;
+		transition: opacity 0.3s ease-out;
+	}
+
+	.contact > a:hover {
+		opacity: 0.5;
+	}
+
+    @media only screen and (max-width: 480px) {
+        .projectBody {
+      max-width: 100%;
+      height: auto;
+      padding: 0 1rem;
+    }
+
+    .projectMain > h1 {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-size: 2.7rem;
+      font-weight: normal;
+    }
+
+    .projectMain > p {
+      margin-top: 30px;
+      background-color: #e8e5e480;
+      padding: 7px 12px;
+      border-radius: 30px;
+    }
+
+    .tags > {
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .tagTitle {
+      font-size: 0.8rem;
+      color: #7f7f7f;
+    }
+
+    .tagText {
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
+
+    .image1Container{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image1Container > img {
+        width: 100%;
+    }
+
+    .overview {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1rem;
+      line-height: 1.3;
+      margin: 12px 0;
+    }
+
+    .text1 {
+      color: #7f7f7f;
+      margin: 20px 0;
+    }
+
+    .text2 {
+      width: 100%;
+      text-align: justify;
+    }
+
+    .contact {
+      height: auto;
+      max-width: auto;
+      margin-top: 23px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact > h2 {
+      text-align: center;
+    }
+
+
+
+    .sectionImage1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionImage1 > img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .sectionImage2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .image1{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image2{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image3{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image4{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image5{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image6{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image7{
+        width: 100%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .folder2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image8{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .image9{
+        width: 49%;
+        border-radius: 12px;
+        margin: 10px 0;
+    }
+
+    .contact{
+		height: 250px;
+		max-width: 100vw;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact > h2{
+		font-size: 2.3rem;
+		font-weight: bolder;
+	}
+
+	.contact > a{
+		color: #7f7f7f;
+		opacity: 0.9;
+		font-size: 2.2rem;
+		text-decoration: none;
+		font-weight: bolder;
+		margin-top: 10px;
+		transition: opacity 0.3s ease-out;
+	}
+
+	.contact > a:hover {
+		opacity: 0.5;
+	}   
+    }
+
+
+</style>
